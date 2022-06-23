@@ -4,6 +4,6 @@ int number = Convert.ToInt32(Console.ReadLine()); // конвертируем с
 
 int squareNumber = number * number;
 
-Console.WriteLine ("Квадрат числа равен: " + squareNumber); // конкретинация склеивание
+Console.WriteLine ("Квадрат числа равен: " + squareNumber); // конкатенация склеивание
 
 //Console.WriteLine(squareNumber); 
