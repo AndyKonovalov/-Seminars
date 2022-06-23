@@ -1,0 +1,15 @@
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\Seminar_1_Groupwork.csproj.AssemblyReference.cache
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\Seminar_1_Groupwork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\Seminar_1_Groupwork.AssemblyInfoInputs.cache
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\Seminar_1_Groupwork.AssemblyInfo.cs
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\Seminar_1_Groupwork.csproj.CoreCompileInputs.cache
+C:\Geekbrains\С#\Seminar_1_Groupwork\bin\Debug\net6.0\Seminar_1_Groupwork.exe
+C:\Geekbrains\С#\Seminar_1_Groupwork\bin\Debug\net6.0\Seminar_1_Groupwork.deps.json
+C:\Geekbrains\С#\Seminar_1_Groupwork\bin\Debug\net6.0\Seminar_1_Groupwork.runtimeconfig.json
+C:\Geekbrains\С#\Seminar_1_Groupwork\bin\Debug\net6.0\Seminar_1_Groupwork.dll
+C:\Geekbrains\С#\Seminar_1_Groupwork\bin\Debug\net6.0\Seminar_1_Groupwork.pdb
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\Seminar_1_Groupwork.dll
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\refint\Seminar_1_Groupwork.dll
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\Seminar_1_Groupwork.pdb
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\Seminar_1_Groupwork.genruntimeconfig.cache
+C:\Geekbrains\С#\Seminar_1_Groupwork\obj\Debug\net6.0\ref\Seminar_1_Groupwork.dll
