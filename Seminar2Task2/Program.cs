@@ -8,9 +8,9 @@ int secondNumber = Convert.ToInt32(Console.ReadLine());
 
 if (thirstNumber % secondNumber == 0)
 {
-    Console.WriteLine($"Второе число {secondNumber} кратно первому {thirstNumber}");
+    Console.WriteLine("Число делится без остатка");
 }
 else
 {
-    Console.WriteLine($"Не кратно, остаток {thirstNumber % secondNumber}");
+    Console.WriteLine($"Не кратно, остаток: {thirstNumber % secondNumber}");
 }
