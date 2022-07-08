@@ -97,36 +97,62 @@
 // [1 2 3 4 5] -> 5 8 3
 // [6 7 3 6] -> 36 21
 
-Console.Write("Задайте размер массива: ");
-int size = Convert.ToInt32(Console.ReadLine());
-int [] array = new int [size];
-int product = 0;
-int rightBorder = array.Length - 1;
-int leftBorder = 0;
+// Console.Write("Задайте размер массива: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// int[] array = new int[size];
+// int evenCheck = 1;
+// if (size % 2 == 0) evenCheck = 0;
+// int[] product = new int[size/2 + evenCheck];
 
-for (int i = 0; i < array.Length; i++)
-{
-    array[i] = new Random().Next(21);
-}
-Console.WriteLine($"Исходный массив [{String.Join("; ", array)}]");
-if (array.Length % 2 == 0)
-{
-    while (leftBorder < rightBorder)
-    {
-        product = array[leftBorder] * array[rightBorder];
-        leftBorder++;
-        rightBorder--;
-        Console.Write(product + "; ");
-    }
-}
-else
-{
-    while (leftBorder != rightBorder)
-    {
-        product = array[leftBorder] * array[rightBorder];
-        leftBorder++;
-        rightBorder--;
-        Console.Write(product + "; ");
-    }
-    Console.Write(array[rightBorder]);
-}
+// for (int i = 0; i < size; i++)
+// {
+//     array[i] = new Random().Next(21);
+// }
+// Console.WriteLine($"Исходный массив [{String.Join("; ", array)}]");
+
+// for (int i = 0; i < size/2 + evenCheck; i++)
+// {
+//     product [i] = array[i] * array[size - i - 1];
+//     if (i == size - i - 1)
+//     {
+//         product[i] = array[i];
+//     }
+// }
+// Console.WriteLine($"Новый массив [{String.Join("; ", product)}]");
+
+// Console.Write("Задайте размер массива: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// int[] inputArray = new int[size];
+// for (int i = 0; i < size; i++)
+// {
+//     inputArray[i] = new Random().Next(21);
+// }
+// Console.WriteLine($"Исходный массив [{String.Join("; ", inputArray)}]");
+// int lastIndex = inputArray.Length - 1;
+
+// int[] resultArray;
+// //  int [] resultArray = new int[inputArray.Length / 2 +inputArray.Length % 2 ];
+// if (inputArray.Length % 2 == 0)
+// {
+//     resultArray = new int[inputArray.Length / 2];
+// }
+// else
+// {
+//     resultArray = new int[inputArray.Length / 2 + 1];
+// }
+
+// for (int i = 0; i < resultArray.Length; i++)
+// {
+//     resultArray[i] = inputArray[i] * inputArray[lastIndex - i];
+//     if (i == lastIndex - i)
+//     {
+//         resultArray[i] = inputArray[i];
+//     }
+// }
+// Console.WriteLine($"Новый массив [{String.Join("; ", resultArray)}] ");
+
+// for(int i = 0; i < resultArray.Length; i++)
+// {
+//     resultArray[i] = resultArray[i] * -1;
+// }
+// Console.WriteLine($"Массив с отрицательными элементами [{String.Join("; ", resultArray)}] ");
