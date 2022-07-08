@@ -99,34 +99,28 @@
 
 Console.Write("Задайте размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
-int [] array = new int [size];
-int product = 0;
-int rightBorder = array.Length - 1;
+int[] array = new int[size];
+int sizeIsOdd = size / 2;
+bool isArrayLengthOdd = size % 2 == 0 ? false : true;
+int newSize = sizeIsOdd + Convert.ToInt32(isArrayLengthOdd);
+int[] product = new int[newSize];
+int rightBorder = size - 1;
 int leftBorder = 0;
 
-for (int i = 0; i < array.Length; i++)
+for (int i = 0; i < size; i++)
 {
     array[i] = new Random().Next(21);
 }
 Console.WriteLine($"Исходный массив [{String.Join("; ", array)}]");
-if (array.Length % 2 == 0)
+
+for (int index = 0; index < sizeIsOdd; index++)
 {
-    while (leftBorder < rightBorder)
+    product[index] = array[leftBorder] * array[rightBorder];
+    leftBorder++;
+    rightBorder--;
+    if (isArrayLengthOdd)
     {
-        product = array[leftBorder] * array[rightBorder];
-        leftBorder++;
-        rightBorder--;
-        Console.Write(product + "; ");
+        product[sizeIsOdd] = array[sizeIsOdd];
     }
 }
-else
-{
-    while (leftBorder != rightBorder)
-    {
-        product = array[leftBorder] * array[rightBorder];
-        leftBorder++;
-        rightBorder--;
-        Console.Write(product + "; ");
-    }
-    Console.Write(array[rightBorder]);
-}
+Console.WriteLine($"Новый массив [{String.Join("; ", product)}]");
