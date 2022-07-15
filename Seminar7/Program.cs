@@ -54,7 +54,6 @@
 //     for (int j = 0; j < matrix.GetLength(1); j++)
 //     {
 //         matrix[i, j] = new Random().Next(0, 11);
-//         // matrix[i, j] = matrix[i, j] * matrix[i, j];
 //         Console.Write(matrix[i, j] + "\t");
 //     }
 //     Console.WriteLine();
@@ -64,7 +63,7 @@
 // {
 //     for (int l = 0; l <matrix.GetLength(1); l++)
 //     {
-//         if(k%2 == 0 && l%2 ==0)
+//         if(k % 2 == 0 && l % 2 ==0)
 //         {
 //             matrix[k, l] = matrix[k, l] * matrix[k, l];
 //         }
@@ -73,8 +72,7 @@
 //     Console.WriteLine();
 // }
 
-// Задача 51: Задайте двумерный массив. Найдите элементы, у которых оба индекса чётные, 
-// и замените эти элементы на их квадраты.
+// Задача 51: Задайте двумерный массив. Найдите сумму элементов, находящихся на главной диагонали (с индексами (0,0); (1;1) и т.д.
 // Например, задан массив:
 // 1 4 7 2
 // 5 9 2 3
@@ -84,16 +82,18 @@
 // int rows = Int32.Parse(Console.ReadLine());
 // int columns = Int32.Parse(Console.ReadLine());
 
-// int [,] matrix = new int[rows,columns]; 
-// int sum=0;
+// int[,] matrix = new int[rows, columns];
+// int sum = 0;
 // for (int i = 0; i < matrix.GetLength(0); i++)
 // {
 //     for (int j = 0; j < matrix.GetLength(1); j++)
 //     {
-//         matrix[i,j] = new Random().Next(0,11);
-//         if(i==j)
-//             sum=sum+matrix[i,j];
-//         Console.Write(matrix[i,j] + "\t");
+//         matrix[i, j] = new Random().Next(0, 11);
+//         if (i == j)
+//         {
+//             sum = sum + matrix[i, j];
+//         }
+//         Console.Write(matrix[i, j] + "\t");
 //     }
 //     Console.WriteLine();
 // }
